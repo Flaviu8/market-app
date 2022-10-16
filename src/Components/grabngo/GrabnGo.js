@@ -9,10 +9,10 @@ function GrabnGo() {
     <p>I'm a paragraph. Click here to add your own text and edit me.</p>
         <div className="images">
             <div className="first-row">
-                <img  src="https://static.wixstatic.com/media/ad420a_520bee0ba61f4eb587f3f383295cf9b4~mv2.jpg/v1/fill/w_210,h_210,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ad420a_520bee0ba61f4eb587f3f383295cf9b4~mv2.jpg"></img>
-                <img  src="https://static.wixstatic.com/media/ad420a_520bee0ba61f4eb587f3f383295cf9b4~mv2.jpg/v1/fill/w_210,h_210,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ad420a_520bee0ba61f4eb587f3f383295cf9b4~mv2.jpg"></img>
-                <img  src="https://static.wixstatic.com/media/ad420a_520bee0ba61f4eb587f3f383295cf9b4~mv2.jpg/v1/fill/w_210,h_210,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ad420a_520bee0ba61f4eb587f3f383295cf9b4~mv2.jpg"></img>
-                <img  src="https://static.wixstatic.com/media/ad420a_520bee0ba61f4eb587f3f383295cf9b4~mv2.jpg/v1/fill/w_210,h_210,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ad420a_520bee0ba61f4eb587f3f383295cf9b4~mv2.jpg"></img>
+                <img  src="https://static.wixstatic.com/media/ad420a_520bee0ba61f4eb587f3f383295cf9b4~mv2.jpg/v1/fill/w_210,h_210,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ad420a_520bee0ba61f4eb587f3f383295cf9b4~mv2.jpg" alt="item"></img>
+                <img  src="https://static.wixstatic.com/media/ad420a_520bee0ba61f4eb587f3f383295cf9b4~mv2.jpg/v1/fill/w_210,h_210,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ad420a_520bee0ba61f4eb587f3f383295cf9b4~mv2.jpg" alt="item"></img>
+                <img  src="https://static.wixstatic.com/media/ad420a_520bee0ba61f4eb587f3f383295cf9b4~mv2.jpg/v1/fill/w_210,h_210,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ad420a_520bee0ba61f4eb587f3f383295cf9b4~mv2.jpg" alt="item"></img>
+                <img  src="https://static.wixstatic.com/media/ad420a_520bee0ba61f4eb587f3f383295cf9b4~mv2.jpg/v1/fill/w_210,h_210,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ad420a_520bee0ba61f4eb587f3f383295cf9b4~mv2.jpg" alt="item"></img>
             </div>
             <div className="input-row">
              <div className="first">
@@ -44,10 +44,10 @@ function GrabnGo() {
                     <button>Add Cart</button>
             </div>
          <div className="second-row">
-                <img  src="https://static.wixstatic.com/media/ad420a_520bee0ba61f4eb587f3f383295cf9b4~mv2.jpg/v1/fill/w_210,h_210,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ad420a_520bee0ba61f4eb587f3f383295cf9b4~mv2.jpg"></img>
-                <img  src="https://static.wixstatic.com/media/ad420a_520bee0ba61f4eb587f3f383295cf9b4~mv2.jpg/v1/fill/w_210,h_210,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ad420a_520bee0ba61f4eb587f3f383295cf9b4~mv2.jpg"></img>
-                <img  src="https://static.wixstatic.com/media/ad420a_520bee0ba61f4eb587f3f383295cf9b4~mv2.jpg/v1/fill/w_210,h_210,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ad420a_520bee0ba61f4eb587f3f383295cf9b4~mv2.jpg"></img>
-                <img  src="https://static.wixstatic.com/media/ad420a_520bee0ba61f4eb587f3f383295cf9b4~mv2.jpg/v1/fill/w_210,h_210,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ad420a_520bee0ba61f4eb587f3f383295cf9b4~mv2.jpg"></img> 
+                <img  src="https://static.wixstatic.com/media/ad420a_520bee0ba61f4eb587f3f383295cf9b4~mv2.jpg/v1/fill/w_210,h_210,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ad420a_520bee0ba61f4eb587f3f383295cf9b4~mv2.jpg" alt="item"></img>
+                <img  src="https://static.wixstatic.com/media/ad420a_520bee0ba61f4eb587f3f383295cf9b4~mv2.jpg/v1/fill/w_210,h_210,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ad420a_520bee0ba61f4eb587f3f383295cf9b4~mv2.jpg" alt="item"></img>
+                <img  src="https://static.wixstatic.com/media/ad420a_520bee0ba61f4eb587f3f383295cf9b4~mv2.jpg/v1/fill/w_210,h_210,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ad420a_520bee0ba61f4eb587f3f383295cf9b4~mv2.jpg" alt="item"></img>
+                <img  src="https://static.wixstatic.com/media/ad420a_520bee0ba61f4eb587f3f383295cf9b4~mv2.jpg/v1/fill/w_210,h_210,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ad420a_520bee0ba61f4eb587f3f383295cf9b4~mv2.jpg" alt="item"></img> 
             </div>
         
         <div className="input-row">
