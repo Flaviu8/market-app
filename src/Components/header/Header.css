@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.header {
+    padding: 20px 90px;
+}
+
+.navbar {
+    padding: 20px 80px;
+    padding-bottom: 50px;
+}
+
+.navbar-brand {
+    display: flex;
+    color: green;
+    padding: 0 20px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.navbar-brand:hover {
+    color: green;
+}
+
+
+.navbar-brand img {
+    margin: 0 10px;
+    
+}
+
+.login {
+    text-decoration: none;
+    margin: 0 20px;
+    color: black;
+}
+
+.login img {
+    margin-right: 10px;
+}
+
+.d-flex {
+    margin: 0 100px;
+  
+}
+
+.navbar-nav {
+    margin: 0 3%;
+    
+}
+
+
+.nav-item a:hover {
+    color: green
+}
+
+
+.nav-item {
+    padding-right: 30px;
+}
+
+.form-control {
+    border: none;
+}
+
+.form-control:hover {
+    border-bottom: 1px solid black;
+}
+
+.carousel-item {
+    padding-left: 70px;
+}
+
+.carousel-caption {
+    padding-bottom: 17%;
+    padding-right: 40%;
+    margin-right: 5%;
+    color: rgb(4, 104, 4);
+    
+}  
+
+.carousel-caption h1 {
+    color: rgb(4, 104, 4);
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.carousel-caption button {
+    color:black;
+    background-color: rgb(22, 165, 22);
+    width: 100px;
+    height: 30px;
+    
+}
+
+.carousel-caption h2 {
+    padding-bottom: 10px;
+    font-size: 50px;
+    font-weight: 340;
+
+} 
+
+.carousel-caption button:hover {
+    background-color: white;
+}
+
+.login:hover {
+    color: gray;
+}
+
+.carousel-indicators {
+    display: none;
+}

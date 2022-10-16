@@ -1,0 +1,125 @@
+.footer {
+    background-color: rgb(39, 90, 39);
+    padding-top: 100px;
+    padding-left: 20%;
+}
+
+.main {
+    display: flex;
+   
+}
+
+.store {
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+    color:rgb(197, 181, 181);
+    
+}
+
+.store h5 {
+    padding-bottom: 10px;
+}
+
+.store a {
+    padding-top: 5px;
+    color: rgb(197, 181, 181);
+    text-decoration: none;
+}
+
+
+.address {
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    color: rgb(197, 181, 181);;
+}
+
+.address p {
+    padding-top: 54px;
+    width: 200px;
+}
+
+.opening-hours {
+        display: flex;
+        flex-direction: column;
+        padding-left: 100px;
+        color:rgb(197, 181, 181);
+}
+
+.opening-hours span {
+    width: 200px;
+    color:rgb(197, 181, 181);
+    
+
+}
+
+.span {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+.get-fresh {
+    display: flex;
+    flex-direction: column;
+    padding-left: 120px;
+    color: rgb(197, 181, 181);;
+
+}
+
+
+.get-fresh span {
+    padding-top: 30px;
+    padding-bottom: 5px;
+    color: rgb(197, 181, 181);
+}
+
+.get-fresh input {
+    width: 250px;
+    height: 34px;
+    background-color:  rgb(39, 90, 39);
+    border-color: white;
+}
+
+.get-fresh button {
+    margin-top: 8px;
+    width: 250px;
+    height: 36px;
+    background-color: white;
+}
+
+
+.get-fresh button:hover {
+    background-color:  rgb(39, 90, 39);
+    color: white;
+    border-color: white;
+}
+
+
+
+
+.company-trademarks {
+    display: flex;
+    padding-top: 100px;
+    color: rgb(197, 181, 181);
+    
+  
+}
+
+.icons {
+    display: flex;
+    padding-left: 60%;
+    flex-direction: row;
+    
+    
+}
+
+
+.icons img {
+    margin-left: 30px;
+    margin-bottom: 40px;   
+
+}
+
+

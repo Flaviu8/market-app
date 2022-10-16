@@ -1,0 +1,58 @@
+.delivery-container {
+        display: flex;
+        padding-top: 70px;
+        width: 80%;
+        padding-left: 18%;
+        text-align: center;
+        padding-bottom: 70px;
+     
+         
+}
+.options {
+        padding: 30px 50px 50px 50px;
+}
+.options h4{
+        color: darkgreen;
+        padding-bottom: 5px; 
+        padding-top: 8px;     
+}
+
+
+.same-day {
+        box-sizing: border-box;
+        border-right: 2px black;
+        border: solid 2px;
+}
+
+
+.same-day:nth-child(2){
+        border-top: 0;
+        border-bottom: 0;
+}
+
+.same-day h4 {
+        color: darkgreen;
+        padding-bottom: 5px; 
+        padding-top: 8px;     
+}
+
+.same-day {
+         padding: 30px 50px 50px 50px;
+
+}
+
+
+.health {
+        padding: 30px 50px 50px 50px;
+}
+
+.health h4{
+        color: darkgreen;  
+        padding-bottom: 5px; 
+        padding-top: 8px;     
+}
+
+
+
+
+

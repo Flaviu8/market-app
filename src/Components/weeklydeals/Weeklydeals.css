@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+
+.container h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    
+}
+
+.container p {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+
+

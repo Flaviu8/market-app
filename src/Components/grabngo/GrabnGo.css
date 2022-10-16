@@ -1,0 +1,134 @@
+.items {
+    background:rgb(241, 240, 240);
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+    padding-bottom: 30px;
+}
+
+.items h2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 8%;
+    color: rgb(0, 88, 0);
+    
+}
+
+.items p {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.images {
+padding-left: 3%;
+display: block;
+}
+
+ .first-row {
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.second-row {
+    padding-top: 10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.input-row {
+    display: flex;
+    padding-top: 100px;
+    justify-content: space-evenly;
+  
+}
+.input-row input {
+    padding-top: 3px;
+}
+
+.input-row input::after {
+    border-left: none;
+    border-right: none;
+}
+
+
+.input-row:nth-child(6) {
+    padding-right: 100px;
+}
+
+
+.input-row input:nth-child(1) {
+    border-left: none;
+    border-right: none;
+}
+.input-row input:nth-child(2) {
+    border-left: none;
+    border-right: none;
+}
+.input-row input:nth-child(3) {
+    border-left: none;
+    border-right: none;
+}
+.input-row input:nth-child(4) {
+    border-left: none;
+    border-right: none;
+}
+.input-row input:nth-child(5) {
+    border-left: none;
+    border-right: none;
+}
+.input-row input:nth-child(6) {
+    border-left: none;
+    border-right: none;
+}
+
+.input-row input:nth-child(7) {
+    border-left: none;
+    border-right: none;
+}
+
+.input-row button {
+    height: 40px;    
+    width: 40px;
+    background-color: white;
+    border-width: 1px;
+    font-weight: 200;
+    font-size: larger;
+    
+}
+
+
+.button-row {
+    padding-top: 10px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.input-row input {
+    text-align: center;
+    width: 120px;
+    height: 40px;
+    border-width: 1px;
+    
+}
+
+
+.button-row button {
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    border-width: 1px;
+}
+
+.input-row button:nth-child(1) {
+    border-right: none;
+}
+
+.input-row button:nth-child(3) {
+    border-left: none;
+}
