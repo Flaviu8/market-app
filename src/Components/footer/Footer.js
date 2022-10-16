@@ -44,9 +44,9 @@ const Footer = () => {
             <p> &copy; 2023 by Fresh Market.Proudly created with Wix.com</p>
         </div>
         <div className="icons">
-            <img src={Youtube} width='35px' height='50px' ></img>
-            <img src={Instagram} width='35px' height='35px'></img>
-            <img src={Facebook} width='43px' height='40px'></img>
+            <img src={Youtube} alt="icons" width='35px' height='50px' ></img>
+            <img src={Instagram} alt="icons" width='35px' height='35px'></img>
+            <img src={Facebook} alt="icons" width='43px' height='40px'></img>
         </div>
     </div>
     )
