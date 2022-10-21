@@ -1,0 +1,71 @@
+@media only screen and (max-width: 1024px) {
+    .footer {
+        padding-left: 40px;
+    
+    }
+    
+    
+    .main {
+        display: flex;
+        width: auto;
+    }
+
+    .store {
+        padding-right: 0;
+    }
+
+    .opening-hours {
+        padding-right: 0;
+    }
+
+}
+
+@media only screen and (max-width: 765px) {
+    .main {
+        display: block;
+        
+    }
+
+    .address {
+        padding-left: 0;
+        padding-top: 30px;
+    }
+
+    .opening-hours {
+        padding-left: 0;
+        padding-top: 30px;
+    }
+
+
+    .get-fresh {
+        padding-left: 0;
+        padding-top: 30px;
+    }
+        
+
+  }
+
+
+
+  @media only screen and (max-width: 300px) {
+    .main {
+        display: block;
+        
+    }
+
+    .address {
+        padding-left: 0;
+        padding-top: 30px;
+    }
+
+    .opening-hours {
+        padding-left: 0;
+        padding-top: 30px;
+    }
+
+
+    .get-fresh {
+        padding-left: 0;
+        padding-top: 30px;
+    }
+}

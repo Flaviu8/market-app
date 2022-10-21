@@ -1,0 +1,75 @@
+@media only screen and (max-width: 1024px) {
+    .card-group{
+        padding-left: 80px;
+        display: block;
+        text-align: center;
+    
+    }
+
+    .card-group img{
+        width: 500px;
+
+    }
+
+    .card {
+        text-align: center     ;
+    }
+}
+
+@media only screen and (max-width: 765px) {
+        .card-group{
+            padding-left: 60px;
+            display: block;
+            text-align: center;
+        
+        }
+
+        .card-group img{
+            width: 400px;
+        }
+
+        .card {
+            text-align: center     ;
+        }
+
+        .container h1 {
+            padding-left: 20px;
+        }
+
+        .container p {
+            padding-left: 40px;
+        }
+
+
+
+  }
+
+
+
+  @media only screen and (max-width: 300px) {
+
+    .card-group{
+        padding-left: 80px;
+        display: block;
+        text-align: center;
+    
+    }
+
+    .card-group img{
+        width: 400px;
+    }
+
+
+    .container h1 {
+        padding-left: 20px;
+    }
+
+    .container p {
+        padding-left: 40px;
+    }
+
+
+
+}
+
+    

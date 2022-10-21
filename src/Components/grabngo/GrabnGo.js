@@ -1,87 +1,94 @@
-import React from "react";
+import './Responsive-GrabnGo.css'
 import './GrabnGo.css'
+import React, { useEffect, useState } from 'react';
 
 
-function GrabnGo() {
-  return (
-   <div className="items">
-    <h2> Grab 'N Go</h2>
-    <p>I'm a paragraph. Click here to add your own text and edit me.</p>
-        <div className="images">
-            <div className="first-row">
-                <img  src="https://static.wixstatic.com/media/ad420a_520bee0ba61f4eb587f3f383295cf9b4~mv2.jpg/v1/fill/w_210,h_210,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ad420a_520bee0ba61f4eb587f3f383295cf9b4~mv2.jpg" alt="item"></img>
-                <img  src="https://static.wixstatic.com/media/ad420a_520bee0ba61f4eb587f3f383295cf9b4~mv2.jpg/v1/fill/w_210,h_210,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ad420a_520bee0ba61f4eb587f3f383295cf9b4~mv2.jpg" alt="item"></img>
-                <img  src="https://static.wixstatic.com/media/ad420a_520bee0ba61f4eb587f3f383295cf9b4~mv2.jpg/v1/fill/w_210,h_210,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ad420a_520bee0ba61f4eb587f3f383295cf9b4~mv2.jpg" alt="item"></img>
-                <img  src="https://static.wixstatic.com/media/ad420a_520bee0ba61f4eb587f3f383295cf9b4~mv2.jpg/v1/fill/w_210,h_210,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ad420a_520bee0ba61f4eb587f3f383295cf9b4~mv2.jpg" alt="item"></img>
-            </div>
-            <div className="input-row">
-             <div className="first">
-                <button className="inputBtns">-</button>
-                <input type= "number"></input>
-                <button className="inputBtn">+</button>
-            </div>
-            <div className="second">
-                <button className="inputBtn">-</button>
-                <input type= "number"></input>
-                <button className="inputBtn">+</button>
-            </div>
-            <div className="third">
-                <button className="inputBtns">-</button>
-                <input type= "number"></input>
-                <button className="inputBtn">+</button>
-            </div>
-            <div className="fourth">
-                <button className="inputBtns">-</button>
-                <input type= "number"></input>
-                <button className="inputBtn">+</button>
-            </div>
-         
-         </div>
-            <div className="button-row">
-                    <button>Add Cart</button>
-                    <button>Add Cart</button>
-                    <button>Add Cart</button>
-                    <button>Add Cart</button>
-            </div>
-         <div className="second-row">
-                <img  src="https://static.wixstatic.com/media/ad420a_520bee0ba61f4eb587f3f383295cf9b4~mv2.jpg/v1/fill/w_210,h_210,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ad420a_520bee0ba61f4eb587f3f383295cf9b4~mv2.jpg" alt="item"></img>
-                <img  src="https://static.wixstatic.com/media/ad420a_520bee0ba61f4eb587f3f383295cf9b4~mv2.jpg/v1/fill/w_210,h_210,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ad420a_520bee0ba61f4eb587f3f383295cf9b4~mv2.jpg" alt="item"></img>
-                <img  src="https://static.wixstatic.com/media/ad420a_520bee0ba61f4eb587f3f383295cf9b4~mv2.jpg/v1/fill/w_210,h_210,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ad420a_520bee0ba61f4eb587f3f383295cf9b4~mv2.jpg" alt="item"></img>
-                <img  src="https://static.wixstatic.com/media/ad420a_520bee0ba61f4eb587f3f383295cf9b4~mv2.jpg/v1/fill/w_210,h_210,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ad420a_520bee0ba61f4eb587f3f383295cf9b4~mv2.jpg" alt="item"></img> 
-            </div>
+
+
+
+ const GrabnGo = () => {
+    const [count, setCount] = useState([
+        { itemCount: 1, id: 1,  value: 0 },
+        { itemCount: 2, id: 2,  value: 0 },
+        { itemCount: 3, id: 3,  value: 0 },
+        { itemCount: 4, id: 4,  value: 0 },
+        { itemCount: 5, id: 5,  value: 0 },
+        { itemCount: 6, id: 6,  value: 0 },
+        { itemCount: 7, id: 7,  value: 0 }
+     
+    
+    ]);
+    const [products, setProducts] = useState(null);
+
+    const Itemincrease = (itemCount) =>  {
+        setCount(count.map((countitem)=>{
+            return countitem.itemCount === itemCount 
+            ? {
+                ...countitem,
+                value: countitem.value + 1,
         
-        <div className="input-row">
-             <div className="first">
-                <button className="inputBtns">-</button>
-                <input type= "number"></input>
-                <button className="inputBtn">+</button>
+            }  : countitem;
+        })
+        )
+    }
+
+    // const Itemincrease = () => {
+    //     setCount
+    //     console.log("click")
+    // }
+
+    useEffect(() => {
+        fetch("http://localhost:3001/items")
+            .then(res => {
+              return res.json()
+            })
+            .then(data => {
+              setProducts(data)
+            })
+      }, []);
+    
+      if (!products) {
+        return  <div className="loading">
+        <h3> Sorry for inconvenience the items <span>is unavailable</span> :(</h3>
+    </div>
+    
+        }   
+   return (
+        <div className="items-container">
+            <div className='title'>         
+                <h2> Grab 'N Go</h2>
+                <p>I'm a paragraph. Click here to add your own text and edit me.</p>
             </div>
-            <div className="second">
-                <button className="inputBtn">-</button>
-                <input type= "number"></input>
-                <button className="inputBtn">+</button>
+            <div className="items" >
+              {products.map((item) => {
+                return (
+                    <div className="item" key={item.id}>
+                        <img src={item.imageUrl} alt="img" width="150px" />
+                        <h5>{item.product}</h5>
+                        <p>{item.price}</p>
+                        <p>Description</p>
+                        <div className="input-field">
+                            <button>-</button>
+                            <input
+                            type="text"
+                            value={count.value}
+                            onChange={(e) => setCount(e.target.value)}
+                            />
+                            <button onClick={Itemincrease} >+</button>
+                        </div>
+                         <button>Add to cart</button>
+                    </div>
+               
+
+                    );
+                    })}
+            
             </div>
-            <div className="third">
-                <button className="inputBtns">-</button>
-                <input type= "number"></input>
-                <button className="inputBtn">+</button>
-            </div>
-            <div className="fourth">
-                <button className="inputBtns">-</button>
-                <input type= "number"></input>
-                <button className="inputBtn">+</button>
-            </div>
-         
-         </div>
-         <div className="button-row">
-                <button>Add Cart</button>
-                <button>Add Cart</button>
-                <button>Add Cart</button>
-                <button>Add Cart</button>
-            </div>
-        </div>
-   </div>
-  )
-}
+        </div>  
+
+
+)
+} 
 
 export default GrabnGo;
+

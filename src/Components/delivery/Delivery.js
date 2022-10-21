@@ -1,6 +1,7 @@
 import React from "react";
 import icon from './plastic-bag.png'
 import './Delivery.css'
+import './Responsive-delivery.css'
 import mask from './mask.png'
 import van from './van.png'
 

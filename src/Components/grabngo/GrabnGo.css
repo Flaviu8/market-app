@@ -1,10 +1,28 @@
-.items {
+.items-container {
     background:rgb(241, 240, 240);
     width: 80%;
-    margin-left: 10%;
-    margin-top: 10%;
+    margin: 10% auto;
+   
     padding-bottom: 30px;
 }
+
+.title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 900px;
+    
+    text-align: center;
+    padding-top: 50px;
+}
+
 
 .items h2 {
     display: flex;
@@ -13,6 +31,19 @@
     color: rgb(0, 88, 0);
     
 }
+.item {
+    margin: auto;
+}
+.item h5{
+    margin-top: 50px;
+}
+
+.items button:nth-child(6) {
+    width: 200px;
+    margin-top: 8px;
+    font-size: medium;
+}
+
 
 .items p {
     display: flex;
@@ -21,77 +52,14 @@
 
 }
 
-.images {
-padding-left: 3%;
-display: block;
-}
-
- .first-row {
-    padding-top: 80px;
-    display: flex;
-    justify-content: space-evenly;
-}
 
 
-.second-row {
-    padding-top: 10%;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-
-.input-row {
-    display: flex;
-    padding-top: 100px;
-    justify-content: space-evenly;
-  
-}
-.input-row input {
-    padding-top: 3px;
-}
-
-.input-row input::after {
+.input-field input {
     border-left: none;
     border-right: none;
-}
+} 
 
-
-.input-row:nth-child(6) {
-    padding-right: 100px;
-}
-
-
-.input-row input:nth-child(1) {
-    border-left: none;
-    border-right: none;
-}
-.input-row input:nth-child(2) {
-    border-left: none;
-    border-right: none;
-}
-.input-row input:nth-child(3) {
-    border-left: none;
-    border-right: none;
-}
-.input-row input:nth-child(4) {
-    border-left: none;
-    border-right: none;
-}
-.input-row input:nth-child(5) {
-    border-left: none;
-    border-right: none;
-}
-.input-row input:nth-child(6) {
-    border-left: none;
-    border-right: none;
-}
-
-.input-row input:nth-child(7) {
-    border-left: none;
-    border-right: none;
-}
-
-.input-row button {
+.input-field button {
     height: 40px;    
     width: 40px;
     background-color: white;
@@ -102,33 +70,29 @@ display: block;
 }
 
 
-.button-row {
-    padding-top: 10px;
-    height: 50px;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.input-row input {
+.input-field input {
     text-align: center;
-    width: 120px;
-    height: 40px;
+    width: 100px;
+    height: 35px;
     border-width: 1px;
+    padding-top: 3px;
     
 }
 
 
-.button-row button {
+.input-field button {
     text-align: center;
-    width: 200px;
-    height: 40px;
+    width: 50px;
+    height: 35px;
     border-width: 1px;
+
 }
 
-.input-row button:nth-child(1) {
+.input-field button:nth-child(1) {
     border-right: none;
 }
 
-.input-row button:nth-child(3) {
+.input-field button:nth-child(3) {
     border-left: none;
-}
+} 
+

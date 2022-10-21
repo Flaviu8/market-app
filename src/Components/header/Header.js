@@ -1,11 +1,14 @@
 import React from 'react'
 import '../header/Header.css'
+import '../header/Responsive-header.css'
 import Icon from '../header/user.png'
 import Shoppingbag from '../header/bag.png'
 import Search from '../header/search.png'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import MyCarousel from '../carousel/Carousel'
 import SearchbarDropdown from '../Hooks/Search'
+import { useEffect } from 'react'
+
 
 
 
@@ -13,6 +16,8 @@ import SearchbarDropdown from '../Hooks/Search'
 
 
 const Header = (props) => {
+
+ 
     return (
     
     <div className='header'>
@@ -54,5 +59,6 @@ const Header = (props) => {
       
     )
   }
+
 
   export default Header

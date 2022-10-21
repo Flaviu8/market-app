@@ -1,5 +1,6 @@
 import React from "react";
 import './Footer.css'
+import './Responsive-footer.css'
 import Facebook from './facebook.png'
 import Youtube from './youtube.png'
 import Instagram from './instagram.png'

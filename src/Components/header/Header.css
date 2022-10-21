@@ -5,7 +5,8 @@
 }
 
 .header {
-    padding: 20px 90px;
+    margin: auto;
+    padding: 90px;
 }
 
 .navbar {
@@ -114,3 +115,4 @@
 .carousel-indicators {
     display: none;
 }
+
