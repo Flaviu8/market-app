@@ -9,7 +9,7 @@
    
 }
 
-.input-field {
+.input-chat {
     border-radius: 10px;
 }
 
@@ -22,7 +22,7 @@
     border: 1.8px solid;
 }
 
-.input-field button {
+.input-chat button {
     width: 50px;
     height: 40px;
     border-radius: 5px;
