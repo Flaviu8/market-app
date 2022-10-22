@@ -20,5 +20,70 @@
 
 }
 
+.card-group {
+    text-align: center;
+    
+}
+
+
+.card {
+    border: none;
+    padding-right: 20px;
+    background-color: rgb(241, 240, 240);
+    flex: initial !important;
+}
+
+.input-field{
+    display: flex;
+}
+
+.input-field input {
+    border-left: none;
+    border-right: none;
+} 
+
+.input-field button {
+    height: 40px;    
+    width: 40px;
+    background-color: white;
+    border-width: 1px;
+    font-weight: 200;
+    font-size: larger;
+    
+}
+
+
+.input-field input {
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    border-width: 1px;
+    padding-top: 3px;
+    
+}
+
+
+.input-field button {
+    text-align: center;
+    width: 50px;
+    height: 40px;
+    border-width: 1px;
+
+}
+
+.CartBtn {
+    background-color: white;
+    border: 1px solid;
+    height: 30px;
+    
+}
+
+.input-field button:nth-child(1) {
+    border-right: none;
+}
+
+.input-field button:nth-child(3) {
+    border-left: none;
+} 
 
 

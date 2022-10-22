@@ -30,15 +30,25 @@ export default function Cards() {
     <CardGroup>
              {items.map((item) => {
           return (
-            <Card key={item.id}>
-      <img src={item.imageUrl} alt="items"></img>
-        <Card.Body>
-          <Card.Title>{item.product}</Card.Title>
-          <Card.Text>
-              {item.price}
-          </Card.Text>
-        </Card.Body>
-      </Card>
+               <Card key={item.id}>
+                  <img src={item.imageUrl} width="200px" height="200px" alt="items"></img>
+                    <Card.Body>
+                      <Card.Title>{item.product}</Card.Title>
+                      <Card.Text>
+                          {item.price}
+                </Card.Text>
+               </Card.Body>
+               <div className="input-field">
+                            <button>-</button>
+                            <input
+                            type="text"
+                            />
+                            <button  >+</button>
+                        </div>
+                         <button className='CartBtn'>Add to cart</button>   
+              </Card>
+              
+        
             
           );
         })}

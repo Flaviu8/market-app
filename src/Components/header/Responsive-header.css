@@ -45,7 +45,6 @@
         padding: 20px 0px;
         padding-bottom: 50px;
         justify-content: center;
-        padding-left: 40px;
     }
 
     .carousel-caption h1 {
@@ -66,14 +65,12 @@
     } 
 
     .carousel-item {
-       
-        padding-left: 70px;
+        padding-left: 5px;
         justify-content: center;
     }
 
     .carousel-item img {
-        width: 800px;
-        height: 400px;
+        height: 300px;
     }
 
 

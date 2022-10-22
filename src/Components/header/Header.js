@@ -15,16 +15,15 @@ import { useEffect } from 'react'
 
 
 
-const Header = (props) => {
-
- 
+const Header = () => {
+    
     return (
     
     <div className='header'>
       <nav className="navbar navbar-expand-lg">
   <div className="container-fluid">
      <a className="navbar-brand" href='/'> <img src='https://cdn.pixabay.com/photo/2014/04/03/11/57/basket-312684_1280.png' alt='basket' width="30px" href='/'></img> Fresh Market</a>
-    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse" id="navbarSupportedContent">

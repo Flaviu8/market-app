@@ -20,22 +20,22 @@ import React, { useEffect, useState } from 'react';
     ]);
     const [products, setProducts] = useState(null);
 
-    const Itemincrease = (itemCount) =>  {
-        setCount(count.map((countitem)=>{
-            return countitem.itemCount === itemCount 
-            ? {
-                ...countitem,
-                value: countitem.value + 1,
+    // const Itemincrease = (itemCount) =>  {
+    //     setCount(count.map((countitem)=>{
+    //         return countitem.itemCount === itemCount 
+    //         ? {
+    //             ...countitem,
+    //             value: countitem.value + 1,
         
-            }  : countitem;
-        })
-        )
-    }
-
-    // const Itemincrease = () => {
-    //     setCount
-    //     console.log("click")
+    //         }  : countitem;
+    //     })
+    //     )
     // }
+
+    const Itemincrease = () => {
+    
+        console.log("click")
+    }
 
     useEffect(() => {
         fetch("http://localhost:3001/items")
@@ -48,9 +48,7 @@ import React, { useEffect, useState } from 'react';
       }, []);
     
       if (!products) {
-        return  <div className="loading">
-        <h3> Sorry for inconvenience the items <span>is unavailable</span> :(</h3>
-    </div>
+        return  <div></div>
     
         }   
    return (
@@ -76,7 +74,7 @@ import React, { useEffect, useState } from 'react';
                             />
                             <button onClick={Itemincrease} >+</button>
                         </div>
-                         <button>Add to cart</button>
+                         <button className='CartBtn'>Add to cart</button>
                     </div>
                
 
