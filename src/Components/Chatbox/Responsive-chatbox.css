@@ -23,6 +23,12 @@
     .chat input {
         width:400px;
     }
+
+    .input-field button {
+        width: 40px;
+        min-height: 40px;
+
+    }
         
 
   }
@@ -60,6 +66,12 @@
     .ChatBtn {
         width: 55px;
         height: 55px;
+    }
+
+    .input-field button {
+        width: 40px;
+        min-height: 40px;
+
     }
         
 
