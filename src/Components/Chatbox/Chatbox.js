@@ -37,7 +37,7 @@ const Chatbox = () => {
                        <ul className="chat-title"><li>We'll reply as soon as we can</li></ul> 
                 </header>
                       <img className="chat-background" src="https://img.freepik.com/free-vector/green-curve-abstract-background_53876-99569.jpg?w=2000" alt="chat"></img>
-                <div className="input-field">
+                <div className="input-chat">
                     <input type="text" placeholder="Type your message"></input>
                      <button >Send</button>
                 </div>
