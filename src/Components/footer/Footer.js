@@ -35,7 +35,7 @@ const Footer = () => {
         
         <div className="get-fresh">
             <h5>GET IT FRESH</h5>
-            <span>Email*</span>
+            <span>Email *</span>
             <input type="text"></input>
             <button>SUBSCRIBE NOW</button>
         </div>

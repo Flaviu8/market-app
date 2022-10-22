@@ -30,7 +30,9 @@
     border: none;
     padding-right: 20px;
     background-color: rgb(241, 240, 240);
-    flex: initial !important;
+    margin: auto;
+    width: 250px;
+
 }
 
 .input-field{
@@ -75,6 +77,7 @@
     background-color: white;
     border: 1px solid;
     height: 30px;
+    width: 200px;
     
 }
 
@@ -87,3 +90,11 @@
 } 
 
 
+.swiper-button-prev, .swiper-button-next {
+    color: black;
+
+}
+
+.swiper-button-prev::after, .swiper-button-next::after {
+    font-size: xx-large;
+}

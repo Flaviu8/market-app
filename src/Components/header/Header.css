@@ -6,7 +6,7 @@
 
 .header {
     margin: auto;
-    padding: 90px;
+    padding: 60px;
 }
 
 .navbar {
@@ -33,6 +33,10 @@
     
 }
 
+.search-icon {
+    margin-left: 20px;
+}
+
 .login {
     text-decoration: none;
     margin: 0 20px;
@@ -41,6 +45,10 @@
 
 .login img {
     margin-right: 10px;
+}
+
+.login:hover {
+    color: gray;
 }
 
 .d-flex {
@@ -108,10 +116,6 @@
 
 .carousel-caption button:hover {
     background-color: white;
-}
-
-.login:hover {
-    color: gray;
 }
 
 .carousel-indicators {

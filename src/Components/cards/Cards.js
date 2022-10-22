@@ -1,8 +1,14 @@
+import React, { useState, useEffect } from "react";
 import Card from 'react-bootstrap/Card';
 import './Cards.css'
 import './Responsive-cards.css'
 import CardGroup from 'react-bootstrap/CardGroup';
-import React, { useState, useEffect } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import 'swiper/css';
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+import {  Navigation } from "swiper";
+
 
 
 
@@ -28,9 +34,39 @@ export default function Cards() {
   }
   return (
     <CardGroup>
+      <Swiper
+            
+            loop={false}
+            navigation={true}
+            slidesPerView={3}
+            spaceBetween={5}
+            className="mySwiper"
+            modules={[ Navigation]}
+            breakpoints={{
+              "@0.23": {
+                slidesPerView: 1,
+                spaceBetween: 4,
+              },
+              "@0.75": {
+                slidesPerView: 2,
+                spaceBetween: 20,
+              },
+              "@1.00": {
+                slidesPerView: 3,
+                spaceBetween: 40,
+              },
+              "@1.50": {
+                slidesPerView: 4,
+                spaceBetween: 50,
+              },
+            }}
+            >
+
              {items.map((item) => {
           return (
-               <Card key={item.id}>
+
+      <SwiperSlide key={item.id}>
+          <Card >
                   <img src={item.imageUrl} width="200px" height="200px" alt="items"></img>
                     <Card.Body>
                       <Card.Title>{item.product}</Card.Title>
@@ -47,15 +83,15 @@ export default function Cards() {
                         </div>
                          <button className='CartBtn'>Add to cart</button>   
               </Card>
-              
-        
+    </SwiperSlide>
+
+
             
           );
         })}
-      
+      </Swiper>
     </CardGroup>
+
   );
 }
 
-
-  

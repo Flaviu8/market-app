@@ -1,0 +1,103 @@
+@media only screen and (max-width: 1024px) {
+    .title header {
+        font-size: 0.2rem;
+    }
+
+    .title header h2 {
+        font-size: revert;
+    }
+
+    .chat-title li {
+        font-size: small;
+    }
+
+    .chat-background {
+        width: 223px;
+        height: 250px;
+    }
+
+    ul {
+        padding-left: 0;
+    }
+
+    .chat input {
+        width:400px;
+    }
+        
+
+  }
+ 
+
+
+
+@media only screen and (max-width: 772px) {
+     
+    .title header {
+        font-size: 0.2rem;
+    }
+
+    .title header h2 {
+        font-size: revert;
+    }
+
+    .chat-title li {
+        font-size: small;
+    }
+
+    .chat-background {
+        width: 223px;
+        height: 250px;
+    }
+
+    ul {
+        padding-left: 0;
+    }
+
+    .chat input {
+        width:400px;
+    }
+
+    .ChatBtn {
+        width: 55px;
+        height: 55px;
+    }
+        
+
+  }
+
+
+
+  @media only screen and (max-width: 300px) {
+
+    .title header {
+        font-size: 0.2rem;
+    }
+
+    .title header h2 {
+        font-size: revert;
+    }
+
+    .chat-title li {
+        font-size: small;
+    }
+
+    .chat-background {
+        width: 223px;
+        height: 250px;
+    }
+
+    ul {
+        padding-left: 0;
+    }
+
+    .chat input {
+        width:400px;
+    }
+
+    .ChatBtn {
+        width: 55px;
+        height: 55px;
+    }
+    
+
+}
