@@ -24,11 +24,6 @@
         width:400px;
     }
 
-    .input-field button {
-        width: 40px;
-        min-height: 40px;
-
-    }
         
 
   }
@@ -36,7 +31,7 @@
 
 
 
-@media only screen and (max-width: 772px) {
+@media only screen and (max-width: 758px) {
      
     .title header {
         font-size: 0.2rem;
@@ -51,7 +46,7 @@
     }
 
     .chat-background {
-        width: 223px;
+        width: 240px;
         height: 250px;
     }
 
@@ -68,11 +63,7 @@
         height: 55px;
     }
 
-    .input-field button {
-        width: 40px;
-        min-height: 40px;
-
-    }
+ 
         
 
   }
@@ -94,7 +85,7 @@
     }
 
     .chat-background {
-        width: 223px;
+        width: 240px;
         height: 250px;
     }
 
