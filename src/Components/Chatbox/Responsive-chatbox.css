@@ -20,8 +20,25 @@
         padding-left: 0;
     }
 
+    .input-chat {
+        border-radius: 10px;
+    }
+    
     .chat input {
-        width:400px;
+        width: auto;
+        height: 40px;
+        text-align: left;
+        padding-left: 15px;
+        padding-bottom: 5px;
+        border: 1.8px solid;
+    }
+
+    .input-chat button {
+        width: 50px;
+        height: 40px;
+        border-radius: 5px;
+        border: 1.8px solid;
+        color: black;
     }
 
         
@@ -54,13 +71,29 @@
         padding-left: 0;
     }
 
+    .input-chat {
+        border-radius: 10px;
+    }
+    
     .chat input {
-        width:400px;
+        width: auto;
+        height: 40px;
+        text-align: left;
+        padding-left: 15px;
+        padding-bottom: 5px;
+        border: 1.8px solid;
     }
 
     .ChatBtn {
         width: 55px;
         height: 55px;
+    }
+    .input-chat button {
+        width: 50px;
+        height: 40px;
+        border-radius: 5px;
+        border: 1.8px solid;
+        color: black;
     }
 
  
@@ -93,13 +126,29 @@
         padding-left: 0;
     }
 
+    .input-chat {
+        border-radius: 10px;
+    }
+    
     .chat input {
-        width:400px;
+        width: auto;
+        height: 40px;
+        text-align: left;
+        padding-left: 15px;
+        padding-bottom: 5px;
+        border: 1.8px solid;
     }
 
     .ChatBtn {
         width: 55px;
         height: 55px;
+    }
+    .input-chat button {
+        width: 50px;
+        height: 40px;
+        border-radius: 5px;
+        border: 1.8px solid;
+        color: black;
     }
     
 
