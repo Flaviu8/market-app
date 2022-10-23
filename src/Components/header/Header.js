@@ -7,6 +7,7 @@ import Search from '../header/search.png'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import MyCarousel from '../carousel/Carousel'
 import SearchbarDropdown from '../Hooks/Search'
+import HandleClickCartBtn from '../Cart/Cart'
 
 
 
@@ -48,7 +49,7 @@ const Header = () => {
         <img className='search-icon' src={Search} alt='search' width='30px' height='30px'></img>
       </form>
       <a className="login" href='/'><img src={Icon} alt='icon' width='30px'></img>Log in</a>
-      <img src={Shoppingbag} alt='shopping-bag' width='30px' href='/'></img>
+      <button className="cart-btn" onClick={HandleClickCartBtn}><img src={Shoppingbag} alt='shopping-bag' width='30px' href='/'></img></button>
     </div>
   </div>
 </nav>

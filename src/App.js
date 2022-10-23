@@ -3,6 +3,7 @@ import Header from './Components/header/Header'
 import Main from './Components/main/Main';
 import Footer from './Components/footer/Footer';
 import Chatbox from './Components/Chatbox/Chatbox'
+import Cart from './Components/Cart/Cart';
 
 function App() {
   return (<>
@@ -10,6 +11,7 @@ function App() {
     <Main/>
     <Footer/>
     <Chatbox />
+    <Cart />
     </>
   );
 }

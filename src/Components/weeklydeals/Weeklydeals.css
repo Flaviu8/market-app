@@ -97,3 +97,10 @@
 .swiper-button-prev::after, .swiper-button-next::after {
     font-size: xx-large;
 }
+
+
+.card-group::after {
+    content: '';
+    border: 2px solid black !important;
+    
+}
