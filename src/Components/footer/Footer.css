@@ -1,10 +1,10 @@
-.footer {
+footer {
     background-color: rgb(39, 90, 39);
     padding-top: 100px;
     padding-left: 20%;
 }
 
-.main {
+footer .main {
     display: flex;
     margin: auto;
    
@@ -121,6 +121,89 @@
     margin-left: 30px;
     margin-bottom: 40px;   
 
+}
+
+
+
+
+@media only screen and (max-width: 1024px) {
+    footer {
+        padding-left: 40px;
+    
+    }
+    
+    
+    footer .main {
+        display: flex;
+        width: auto;
+    }
+
+    .store {
+        padding-right: 0;
+    }
+
+    .opening-hours {
+        padding-right: 0;
+    }
+
+}
+
+@media only screen and (max-width: 765px) {
+    footer .main {
+        display: block;
+        
+    }
+
+    .address {
+        padding-left: 0;
+        padding-top: 30px;
+    }
+
+    .opening-hours {
+        padding-left: 0;
+        padding-top: 30px;
+    }
+
+
+    .get-fresh {
+        padding-left: 0;
+        padding-top: 30px;
+    }
+
+    .icons{
+        padding-left: 0;
+    }
+        
+
+  }
+
+
+
+  @media only screen and (max-width: 300px) {
+    footer .main {
+        display: block;
+        
+    }
+
+    .address {
+        padding-left: 0;
+        padding-top: 30px;
+    }
+
+    .opening-hours {
+        padding-left: 0;
+        padding-top: 30px;
+    }
+
+
+    .get-fresh {
+        padding-left: 0;
+        padding-top: 30px;
+    }
+
+    .icons {
+        padding-left: 0;
+    }
 }
 
 

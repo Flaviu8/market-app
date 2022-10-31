@@ -20,6 +20,16 @@
 
 }
 
+.container::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    margin: 5% auto;
+    background-color: black;
+    
+}
+
 .card-group {
     text-align: center;
     

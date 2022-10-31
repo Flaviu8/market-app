@@ -1,4 +1,3 @@
-import './Responsive-GrabnGo.css'
 import './GrabnGo.css'
 import React, { useEffect, useState } from 'react';
 

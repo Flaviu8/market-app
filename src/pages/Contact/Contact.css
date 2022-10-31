@@ -1,0 +1,317 @@
+.contact-container {
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 30px;
+    margin-bottom: 8em;
+}
+
+
+.contact-title {
+    margin: auto;
+    text-align: center;
+    padding-top: 10%;
+}
+
+
+.contact-title p {
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+}
+
+
+.contact-title::after {
+    content: '';
+    display: block;
+    width: 45%;
+    height: 1px;
+    margin: 10% auto;
+    background-color: black;
+}
+
+.contact-container .main { 
+    display: flex;
+    justify-content: center;
+
+}
+
+.contact-container .contact {
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+
+}
+.contact-container .address {
+    margin-left: 80px;
+}
+
+.contact-container .address p {
+    padding-top: 35px;
+}
+
+.contact-container .contact span:nth-child(2) {
+    padding-top: 35px;
+    color: black;
+}
+.contact-container .contact span {
+    color: black;
+}
+
+.maps {
+    width: 300px;
+    height: 300px;
+}
+
+
+.contact-container .opening-hours {
+    color: black;
+}
+
+.contact-container .opening-hours span {
+    color: black;
+}
+
+.contact-container .address{
+    color: black;
+}
+
+.contact-container-form {
+   display: flex;
+   justify-content: center;
+}
+
+.contact-container .contact-input {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 30px;
+    padding-top: 50px;
+
+    
+}
+
+
+.contact-input input {
+    width: 350px;
+    height: 30px;
+    margin-bottom: 0.3em;
+}
+
+.contact-input input:focus {
+    border: 2px solid transparent;
+    
+
+}
+
+.contact-input span {
+    margin-bottom: 0.3em;
+    color: black;
+}
+
+
+.contact-message {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-message span {
+    color: black;
+    margin-left: 25%;
+    margin-bottom: 0.5em; 
+
+}
+
+.contact-message textarea {
+    width: 770px;
+    height: 200px;
+    margin: auto;
+}
+
+form button {
+    display: flex;
+    margin: auto;
+    margin-top: 60px;
+    width: 120px;
+    height: 30px;
+    background-color: rgb(104, 209, 104);
+    align-items: center;
+    justify-content: center;
+}
+
+
+form button:hover {
+    background-color: white;
+}
+
+.leaflet-pane {
+    z-index: 0;
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+
+    .contact-container-form {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .contact-message {
+        padding-left: 80px;
+    }
+
+
+    .contact-message textarea {
+        width: 90%;
+        margin: auto;
+      }
+
+      .contact-message span {
+        margin: auto;
+
+      }
+
+      .opening-hours span{
+        display: flex;
+        flex-direction: row;
+
+      }
+
+}
+
+@media only screen and (max-width: 765px) {
+    .contact-message textarea {
+        width: 200px;
+        height: 200px;
+    }
+
+  .contact-title p {
+    width: auto;
+  }
+
+  .contact-container .main {
+    display: block;
+    text-align: center;
+  }
+
+  .contact-container .contact {
+    padding-left: 0px;
+    margin: auto
+  }
+
+  .contact-container .address {
+    margin: auto;
+  }
+
+  .contact-container .address h6 {
+    margin: auto;
+  }
+
+  .contact-container .address p {
+    width: auto;
+    margin: auto;
+  }
+  .contact-container .opening-hours span {
+    margin: auto;
+    width: 300px;
+    width: 85%;
+
+  }
+
+  .contact-container .span {
+    margin: auto;
+  }
+
+  .contact-container-form {
+    display: block;
+    width: 100%;
+  }
+
+  .contact-container .contact-input {
+    margin: auto;
+  }
+
+  .contact-input input {
+    width: 100%;
+  }
+
+  .contact-message {
+    padding-left: 0;
+  }
+
+  .contact-message textarea {
+    width: 100%;
+  }
+
+
+
+  }
+
+
+
+  @media only screen and (max-width: 300px) {
+    .contact-message textarea {
+        width: 200px;
+        height: 200px;
+    }
+
+  .contact-title p {
+    width: auto;
+  }
+
+  .contact-container .main {
+    display: block;
+    text-align: center;
+  }
+
+  .contact-container .contact {
+    padding-left: 0px;
+    margin: auto
+  }
+
+  .contact-container .address {
+    margin: auto;
+  }
+
+  .contact-container .address h6 {
+    margin: auto;
+  }
+
+  .contact-container .address p {
+    width: auto;
+    margin: auto;
+  }
+  .contact-container .opening-hours span {
+    margin: auto;
+    width: 300px;
+    width: 85%;
+  }
+ .contact-container .span {
+    margin: auto;
+  }
+
+  .contact-container-form {
+    display: block;
+    width: 100%;
+  }
+
+  .contact-container .contact-input {
+    margin: auto;
+  }
+
+  .contact-input input {
+    width: 100%;
+  }
+
+  .contact-message {
+    padding-left: 0;
+  }
+
+  .contact-message textarea {
+    width: 100%;
+  }
+
+
+
+  }

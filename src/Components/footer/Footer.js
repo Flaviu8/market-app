@@ -1,6 +1,5 @@
 import React from "react";
 import './Footer.css'
-import './Responsive-footer.css'
 import Facebook from './facebook.png'
 import Youtube from './youtube.png'
 import Instagram from './instagram.png'
@@ -9,7 +8,7 @@ import Instagram from './instagram.png'
 
 const Footer = () => {
     return (
-    <div className="footer">
+    <footer>
         <div className="main">
         <div className="store">
             <h5>STORE</h5>
@@ -49,7 +48,7 @@ const Footer = () => {
             <img src={Instagram} alt="icons" width='35px' height='35px'></img>
             <img src={Facebook} alt="icons" width='43px' height='40px'></img>
         </div>
-    </div>
+    </footer>
     )
 }
 
