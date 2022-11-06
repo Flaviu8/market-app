@@ -73,6 +73,18 @@
         height: 300px;
     }
 
+    .login {
+        position: absolute;
+        top: 75px;
+        left: 200px;
+    }
+
+    .cart-btn img {
+        position: absolute;
+        top: 70px;
+        right: 30px;
+    }
+
 
   }
 
@@ -111,6 +123,18 @@
     .carousel-item img {
         width: 800px;
         height: 400px;
+    }
+
+    .login {
+        position: absolute;
+        top: 75px;
+        left: 200px;
+    }
+
+    .cart-btn img {
+        position: absolute;
+        top: 70px;
+        right: 30px;
     }
 
 

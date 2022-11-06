@@ -75,16 +75,31 @@
     padding-right: 30px;
 }
 
-.form-control {
+.search-input {
+    margin-right: 40px;
+}
+
+.search-input input {
+    border: none;
+    margin-right: 10px;
+    height: 35px;
+    padding-left: 6px;
+    border-radius: 4%;
+    
+}
+
+.search-input img {
+    width: 35px;
+    height: 35px;
+}
+
+.search-input input:focus {
+    border-bottom: 1px solid black;
     border: none;
 }
 
-.form-control:hover {
-    border-bottom: 1px solid black;
-}
-
-.carousel-item {
-    padding-left: 70px;
+.carousel-item img{
+    margin: auto;
 }
 
 .carousel-caption {

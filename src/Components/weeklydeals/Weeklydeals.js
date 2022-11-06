@@ -5,7 +5,7 @@ import './Weeklydeals.css';
 
 
 const Weekly = () => {
-    return <div className="container">
+    return <div className="container-item">
         <h1>Weekly Deals</h1>
         <p>I'm paragraph. Click here to add your own text and edit me</p>
         <Cards/>
