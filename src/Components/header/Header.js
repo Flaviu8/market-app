@@ -58,7 +58,7 @@ const Header = () => {
               <a className="login" href='/'><img src={Icon} alt='icon' width='30px'></img>Log in</a>
               <button className="cart-btn" onClick={handleClickBtn}><img src={Shoppingbag} alt='shopping-bag' width='30px' href='/'></img></button>
                   {
-                    show ?  ''  : <Cart />
+                    show ?  ''  : <Cart show={show} />
                   }
           </Container>
         </Navbar>
