@@ -59,7 +59,7 @@ const Header = () => {
               <button className="cart-btn" onClick={handleClickBtn}><img src={Shoppingbag} alt='shopping-bag' width='30px' href='/'></img></button>
                 <div>
                   {
-                    show ?  <Cart show={show} /> : ''
+                    show ?  <div>Hello</div> : ''
                   }
                     </div>  
           </Container>
