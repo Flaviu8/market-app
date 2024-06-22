@@ -57,9 +57,11 @@ const Header = () => {
               </Navbar.Collapse>
               <a className="login" href='/'><img src={Icon} alt='icon' width='30px'></img>Log in</a>
               <button className="cart-btn" onClick={handleClickBtn}><img src={Shoppingbag} alt='shopping-bag' width='30px' href='/'></img></button>
+                <div>
                   {
-                    show ?  ''  : <Cart show={show} />
+                    show ?  <Cart show={show} /> : ''
                   }
+                    </div>  
           </Container>
         </Navbar>
 </div>
