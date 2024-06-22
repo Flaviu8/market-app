@@ -5,23 +5,14 @@ import Main from '../main/Main'
 
 
 
-function Cart() {
-      const [showCart, setShowCart] = useState(false)
+function Cart({show}) {
 
-    
-      
-      const HandleClickCartBtn = () => {
-      setShowCart(!showCart)
-      console.log('click')
-    }
-     {
-
-      if(showCart) {
+      if(show) {
      return (
            
            <div className='cart-container'>
                 <div className='cart-header'>
-                  <button onClick={HandleClickCartBtn  }><img src={Icon} alt="icon"></img></button>
+                  <button ><img src={Icon} alt="icon"></img></button>
                    <h2>Cart</h2>
                 </div>
                       <p>Cart is empty!</p>
