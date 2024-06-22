@@ -7,7 +7,6 @@ import Main from '../main/Main'
 
 function Cart({show}) {
 
-      if(show) {
      return (
            
            <div className='cart-container'>
@@ -19,7 +18,7 @@ function Cart({show}) {
               </div>
                  
       
-      }
+
 )} 
 } 
 
