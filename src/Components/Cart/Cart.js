@@ -15,7 +15,7 @@ function Cart() {
       console.log('click')
     }
      {
-  if(!showCart)    
+  if(showCart)    
   return (
         <div className='cart-container'>
           <div className='cart-header'>
